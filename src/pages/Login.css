@@ -1,0 +1,41 @@
+/* Reset Default Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure Full-Page Height & Remove Extra Space */
+html, body, #root {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; /* Prevents unwanted scrolling */
+}
+
+/* Ensure the App Container Uses Full Height */
+#root, .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Ensures it covers the whole screen */
+    width: 100%;
+    background: linear-gradient(to bottom, #1e3c72, #2a5298);
+}
+
+/* Glassmorphism Login Box */
+.login-card {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Debugging Borders - Remove After Testing */
+* {
+    /* outline: 1px solid red;  Enable this temporarily to check any extra space */
+}

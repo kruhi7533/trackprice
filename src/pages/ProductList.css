@@ -1,0 +1,17 @@
+.content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.no-products {
+    color: gray;
+    font-size: 16px;
+    text-align: center;
+}
